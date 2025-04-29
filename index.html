@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"  />
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfolio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+    <img src="img/perfil.jpg" alt="avatar da Nicoly" class="rounded-circle" width="150" height="150" srcset="">
+    <p class="lead">Olá, me chamo Nicoly_</p>
+    <h1>Sou estudante</h1>
+    <p>Sou Estudante no ensino médio, prático esportes, gosto de ler no meu tempo livre e já participei de alguns projetos escolares!</p>
+    <p>Minhas habilidades</p>
+    <div>
+        <p class="badge bg-secondary">Espanhol</p>
+        <p class="badge bg-secondary">Organização e disciplina</p>
+        <p class="badge bg-secondary">Canto</p>
+        <p class="badge bg-secondary">Produção de doces</p>
+        <p class="badge bg-secondary">Exercício físicos</p>
+</div>
+</header>
+<main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+     <!-- Projeto 1 -->
+     <div class="col-md-4">
+        <div class="card">
+            <img src="monitoria.jpg" class="card-img-top" alt="imagem do projeto de monitoria">
+            <div class="card-body">
+                <h5 class="card-title">Monitoria: detalhes personalizados</h5>
+                <p class="card-text">Esse projeto é uma passagem por cima dos dias de acompanhamento aos alunos do 6 ano, ajudando-os em suas duvidas em leitura e 
+                    redação.
+                </p>
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                    o projeto</button>
+            </div>
+        </div>
+    </div>
+    <!-- Projeto 2 -->
+   <div class="col-md-4">
+        <div class="card">
+            <img src="livros.jpeg" class="card-img-top" alt="imagem do projeto de leitura">
+            <div class="card-body">
+                <h5 class="card-title">ler é conhecimento: o caminho da leitura</h5>
+                <p class="card-text">Esse projeto abrange leituras e descrições de livros, de plataformas educacionais e livros físicos.</p>
+                <button type="button" class="btn btn-link">Veja o projeto</button>
+            </div>
+        </div>
+    </div>
+     <!-- Projeto 3 -->
+     <div class="col-md-4">
+        <div class="card">
+            <img src="bolos.jpeg" class="card-img-top" alt="Imagens de bolo">
+            <div class="card-body">
+                <h5 class="card-title">Produção de bolos: detalhes 
+                </h5>
+                <p class="card-text">Este projeto cria uma experiência interativa sobre produção de bolos,
+                     permitindo aos usuários explorar informações sobre massas, cobertura e a
+                    forma de preparação(receitas).
+                </p>
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                    o projeto</button>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Monitoria: detalhes personalizados</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>O projeto é uma página criada para mostrar a experiência de atender crianças em suas diviculdades nos meios de educação. 
+                    O objetivo é criar um ambiente virtual onde seja possível compartilhar
+                    a visão do aluno monitor a fornecer seus conhecimentos para meio de ajuda, fornecendo uma descrição breve de cada aluno, incluindo suas respostas
+                    ao aprendizado.</p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <img src="monitoria.jpg" class="img-fluid w-100"
+                    alt="Imagem representativa do projeto de Monitoria online">
+            </div>
+            <div class="modal-footer">
+                <a href="">Ver projeto ao vivo</a>
+                <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+        <a href="https://github.com/nicolyccm">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2025. Produzido por Nicoly</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
